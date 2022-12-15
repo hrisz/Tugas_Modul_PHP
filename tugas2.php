@@ -9,12 +9,12 @@
 <body>
     <h2>Latihan 2</h2>
     <?php
-    function akurasi($a,$b,$c,$d,$e,$f,$g)
+    function akurasi($a,$b,$c,$d)
     {
-        $equal=$a+$b+$c+$d+$e+$f+$g;
+        $equal=$a+$b+$c+$d;
         return $equal;
     }
-    echo ("Akurasi bilangan genap dari 0 s.d 6 adalah ".akurasi(0,1,2,3,4,5,6));
+    echo ("Akurasi bilangan genap dari 0 s.d 6 adalah ".akurasi(0,2,4,6));
     ?>
 </body>
 </html>
